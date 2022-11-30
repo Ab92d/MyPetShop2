@@ -34,7 +34,7 @@ public abstract class Pet {
     public void getsOlder() {
         age++;
     }
-    // Not teh syntax for an abstract method, not quite the same as
+    // Not the syntax for an abstract method, not quite the same as
     // a normal method. No instructions are passed to other classes,
     // but, this needs to be created in each of the subclasses as a functional method.
     abstract public void eats();

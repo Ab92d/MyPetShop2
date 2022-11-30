@@ -1,7 +1,3 @@
-package Subclasses;
-
-import Interfaces.Walk;
-
 public class Cat extends Pet implements Walk {
     private String breed;
 
@@ -21,7 +17,7 @@ public class Cat extends Pet implements Walk {
     public void sleeps() {
         System.out.println("ZZZZZZZZZ!");
     }
-    @Override
+
     public void makeSound() {
         System.out.println("Purrrrrrrrr!");
     }

@@ -1,8 +1,3 @@
-import Subclasses.Bird;
-import Subclasses.BorderCollie;
-import Subclasses.Cat;
-import Subclasses.Dog;
-
 public class Program {
     public static void main(String[] args) {
 //        Pet obj = new Pet("Fido", 7);
@@ -15,7 +10,7 @@ public class Program {
         d.makeSound();
         d.dig();
 
-        Cat c = new Cat("Simba", 12, "Black Subclasses.Cat");
+        Cat c = new Cat("Simba", 12, "Black Cat");
         System.out.println(c.getName());
         c.makeSound();
 

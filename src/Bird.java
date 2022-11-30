@@ -1,5 +1,3 @@
-package Subclasses;
-
 public class Bird extends Pet implements Fly, Walk {
     private float wingspan;
 

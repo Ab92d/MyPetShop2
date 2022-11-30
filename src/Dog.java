@@ -1,7 +1,3 @@
-package Subclasses;
-
-import Interfaces.Walk;
-
 public class Dog extends Pet implements Walk {
 
     // This constructor derives from the Pet class. The variables are
@@ -10,7 +6,7 @@ public class Dog extends Pet implements Walk {
         super(name, age);
     }
 
-    // This method can only be used by the Subclasses.Dog class and any of its child classes
+    // This method can only be used by the Dog class and any of its child classes
     public void dig() {
         System.out.println(getName() + " digs a hole!");
     }
